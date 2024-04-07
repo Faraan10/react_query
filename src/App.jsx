@@ -2,8 +2,7 @@ import { ToastContainer } from "react-toastify";
 import { nanoid } from "nanoid";
 import Form from "./Form";
 import Items from "./Items";
-import { useEffect, useState } from "react";
-import getApi from "./api/getApi";
+import { useState } from "react";
 
 const defaultItems = [
 	{ id: nanoid(), title: "walk the dog", isDone: false },

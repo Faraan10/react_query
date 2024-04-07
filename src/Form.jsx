@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 const Form = () => {
 	const [newItemName, setNewItemName] = useState("");
 
-	const result = useMutation();
+	//const result = useMutation();
 	// console.log(result);
 
 	const queryClient = useQueryClient();
